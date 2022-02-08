@@ -1,0 +1,43 @@
+body{
+    background-color: lightblue;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+#title{
+    font-style: italic;
+    font-weight: bold;
+}
+#name-label, #email-label, #number-label{
+    display: block;
+    
+}
+form{
+    padding-top: 50px;
+    background-color: darkblue;
+    color: #fff;
+
+}
+.container{
+    overflow: none;
+    width: 80%;
+    margin: auto;
+}
+#name ,#email, #number, #dropdown ,#reply{
+    width: 60%;
+    padding: 10px;
+
+}
+#submit{
+    background-color: chocolate;
+    padding: 10px;
+    width: 60%;
+
+}
+#submit:hover{
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+}
